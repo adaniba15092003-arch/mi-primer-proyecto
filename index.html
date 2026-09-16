@@ -35,4 +35,176 @@
         }
 
         .banner {
-            background: linear-gradi…
+            background: linear-gradient(135deg, #111, #333);
+            color: white;
+            text-align: center;
+            padding: 45px 20px;
+        }
+
+        .banner h2 {
+            font-size: 30px;
+            margin-bottom: 10px;
+        }
+
+        .banner p {
+            margin-bottom: 20px;
+        }
+
+        .boton {
+            display: inline-block;
+            background: white;
+            color: #111;
+            padding: 13px 22px;
+            border-radius: 30px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .productos {
+            max-width: 1100px;
+            margin: 35px auto;
+            padding: 0 20px;
+        }
+
+        .productos h2 {
+            text-align: center;
+            margin-bottom: 25px;
+            font-size: 28px;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 20px;
+        }
+
+        .producto {
+            background: white;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+        }
+
+        .producto img {
+            width: 100%;
+            height: 260px;
+            object-fit: cover;
+            background: #ddd;
+        }
+
+        .info {
+            padding: 18px;
+        }
+
+        .info h3 {
+            margin-bottom: 8px;
+        }
+
+        .precio {
+            font-size: 22px;
+            font-weight: bold;
+            margin: 10px 0;
+        }
+
+        .comprar {
+            display: block;
+            text-align: center;
+            background: #111;
+            color: white;
+            text-decoration: none;
+            padding: 12px;
+            border-radius: 8px;
+            margin-top: 12px;
+        }
+
+        footer {
+            background: #111;
+            color: white;
+            text-align: center;
+            padding: 30px 15px;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>TopVentasWear 🚀</h1>
+    <p>Ropa y zapatillas a precios increíbles</p>
+</header>
+
+<section class="banner">
+    <h2>🔥 NUEVA COLECCIÓN 🔥</h2>
+    <p>Descubre nuestras novedades y haz tu pedido.</p>
+
+    <a class="boton" href="https://t.me/" target="_blank">
+        🛒 Ver catálogo
+    </a>
+</section>
+
+<section class="productos">
+
+    <h2>Productos destacados</h2>
+
+    <div class="grid">
+
+        <div class="producto">
+            <img src="https://via.placeholder.com/500x600?text=Producto+1">
+            <div class="info">
+                <h3>Chaquetón estilo Nike Nocta</h3>
+                <p>Disponible en varias tallas.</p>
+                <div class="precio">65€</div>
+                <a class="comprar" href="https://wa.me/" target="_blank">
+                    Comprar por WhatsApp
+                </a>
+            </div>
+        </div>
+
+        <div class="producto">
+            <img src="https://via.placeholder.com/500x600?text=Producto+2">
+            <div class="info">
+                <h3>Asics Gel</h3>
+                <p>Tallas 36 - 47.</p>
+                <div class="precio">65€</div>
+                <a class="comprar" href="https://wa.me/" target="_blank">
+                    Comprar por WhatsApp
+                </a>
+            </div>
+        </div>
+
+        <div class="producto">
+            <img src="https://via.placeholder.com/500x600?text=Producto+3">
+            <div class="info">
+                <h3>Chándal deportivo</h3>
+                <p>Varias tallas disponibles.</p>
+                <div class="precio">65€</div>
+                <a class="comprar" href="https://wa.me/" target="_blank">
+                    Comprar por WhatsApp
+                </a>
+            </div>
+        </div>
+
+        <div class="producto">
+            <img src="https://via.placeholder.com/500x600?text=Producto+4">
+            <div class="info">
+                <h3>Chaqueta cortavientos</h3>
+                <p>Disponible en M, L y XL.</p>
+                <div class="precio">45€</div>
+                <a class="comprar" href="https://wa.me/" target="_blank">
+                    Comprar por WhatsApp
+                </a>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<footer>
+    <h3>TopVentasWear 🚀</h3>
+    <p>Pedidos y consultas por WhatsApp o Telegram</p>
+</footer>
+
+</body>
+</html>
